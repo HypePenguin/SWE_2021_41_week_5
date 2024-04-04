@@ -1,0 +1,64 @@
+#!/bin/bash
+
+files=$(dirname $0)/files
+
+for textfile in $files/*
+
+do
+	filename="${textfile##*/}"
+
+	if [[ "$filename" == a* ]] || [[ "$filename" == A* ]]
+	then mv $files/$filename ./a 
+	elif [[ "$filename" == b* ]] || [[ "$filename" == B* ]]
+	then mv $files/$filename ./b 
+	elif [[ "$filename" == c* ]] || [[ "$filename" == C* ]]
+	then mv $files/$filename ./c 
+	elif [[ "$filename" == d* ]] || [[ "$filename" == D* ]]
+	then mv $files/$filename ./d 
+	elif [[ "$filename" == e* ]] || [[ "$filename" == E* ]]
+	then mv $files/$filename ./e 
+	elif [[ "$filename" == f* ]] || [[ "$filename" == F* ]]
+	then mv $files/$filename ./f 
+	elif [[ "$filename" == g* ]] || [[ "$filename" == G* ]]
+	then mv $files/$filename ./g 
+	elif [[ "$filename" == h* ]] || [[ "$filename" == H* ]]
+	then mv $files/$filename ./h 
+	elif [[ "$filename" == i* ]] || [[ "$filename" == I* ]]
+	then mv $files/$filename ./i 
+	elif [[ "$filename" == j* ]] || [[ "$filename" == J* ]]
+	then mv $files/$filename ./j 
+	elif [[ "$filename" == k* ]] || [[ "$filename" == K* ]]
+	then mv $files/$filename ./k 
+	elif [[ "$filename" == l* ]] || [[ "$filename" == L* ]]
+	then mv $files/$filename ./l 
+	elif [[ "$filename" == m* ]] || [[ "$filename" == M* ]]
+	then mv $files/$filename ./m 
+	elif [[ "$filename" == n* ]] || [[ "$filename" == N* ]]
+	then mv $files/$filename ./n 
+	elif [[ "$filename" == o* ]] || [[ "$filename" == O* ]]
+	then mv $files/$filename ./o 
+	elif [[ "$filename" == p* ]] || [[ "$filename" == P* ]]
+	then mv $files/$filename ./p 
+	elif [[ "$filename" == q* ]] || [[ "$filename" == Q* ]]
+	then mv $files/$filename ./q 
+	elif [[ "$filename" == r* ]] || [[ "$filename" == R* ]]
+	then mv $files/$filename ./r 
+	elif [[ "$filename" == s* ]] || [[ "$filename" == S* ]]
+	then mv $files/$filename ./s 
+	elif [[ "$filename" == t* ]] || [[ "$filename" == T* ]]
+	then mv $files/$filename ./t 
+	elif [[ "$filename" == u* ]] || [[ "$filename" == U* ]]
+	then mv $files/$filename ./u 
+	elif [[ "$filename" == v* ]] || [[ "$filename" == V* ]]
+	then mv $files/$filename ./v 
+	elif [[ "$filename" == w* ]] || [[ "$filename" == W* ]]
+	then mv $files/$filename ./w 
+	elif [[ "$filename" == x* ]] || [[ "$filename" == X* ]]
+	then mv $files/$filename ./x 
+	elif [[ "$filename" == y* ]] || [[ "$filename" == Y* ]]
+	then mv $files/$filename ./y 
+	elif [[ "$filename" == z* ]] || [[ "$filename" == Z* ]]
+	then mv $files/$filename ./z 
+	fi
+done
+
