@@ -1,1 +1,1 @@
-Moving files in files directory to variable directories.
+Moving files in files directory to various directories.
